@@ -1,9 +1,8 @@
-s=raw_input("")
-print(s)
-if(s>'a'):
-  print("alphabet")
-elif(s>'A'):
-  print("Alphabet")
+s= input("Enter any character: ");
+if s == '0':
+    exit();
 else:
-  print("No")
-   
+    if((s>='a' and s<='z') or (s>='A' and s<='Z')):
+    	print("Alphabet");
+    else:
+    	print("Not alphabet");
