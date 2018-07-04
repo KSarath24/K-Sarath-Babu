@@ -1,8 +1,11 @@
-n=int(ïnput("Enter the input numer: "))
-if(n=0):
+n=int(input("1<=N<=100000: "))
+if(n==0):
   print("Zero")
 elif(n>0):
   print("Positive")
-else:
+elif(n<0):
   print("Negative")
+else:
+  print("Invalid")
   
+ 
